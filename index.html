@@ -193,16 +193,18 @@
       }
 
       .hero-text {
-        min-height: 100dvh;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 5.5rem 1.5rem 15rem;
-      }
-      .hero-text {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5.5rem 1.5rem 15rem;
     text-align: right;
     align-items: flex-end;
+  }
+
+  .hero-text h1 {
+    text-align: left;
+    align-self: flex-start;
   }
 
       .hero-text>h1 {
@@ -216,7 +218,7 @@
       .hero-btns {
         position: absolute;
         /* taken out of flow */
-        bottom: 11rem;
+        bottom: 10rem;
         /* pinned to bottom */
         left: 1.5rem;
         right: 1.5rem;
